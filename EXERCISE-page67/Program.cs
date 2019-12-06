@@ -14,7 +14,6 @@ namespace EXERCISE_page67
             Console.WriteLine("Enter hours worked per week");
             decimal b = Convert.ToDecimal(Console.ReadLine());
             decimal person1 = a * b;
-
             Console.WriteLine("Person 2");
             Console.WriteLine("Enter hourly rate");
             decimal c = Convert.ToDecimal(Console.ReadLine());
@@ -24,6 +23,7 @@ namespace EXERCISE_page67
             bool compareSalary = person1 > person2;
             Console.WriteLine("Does Person #1 make more money than Person #2? " + compareSalary);
             Console.Read();
+
 
         }
     }
