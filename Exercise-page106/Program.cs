@@ -31,6 +31,7 @@ namespace Exercise_page106
             }
             finally 
             {
+
                 Console.ReadLine();
             }
             
